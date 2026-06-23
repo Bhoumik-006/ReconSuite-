@@ -1,0 +1,314 @@
+{
+  "target": "google.com",
+  "date": "2026-06-21 18:48:42",
+  "scan_duration": 150.85,
+  "modules": {
+    "ssl": {
+      "host": "google.com",
+      "port": 443,
+      "error": "dictionary update sequence element #0 has length 1; 2 is required"
+    },
+    "shodan": {
+      "target": "google.com",
+      "source": "Shodan InternetDB",
+      "data": {
+        "cpes": [
+          "cpe:/a:google:web_server"
+        ],
+        "hostnames": [
+          "lcboma-bg-in-f14.1e100.net",
+          "del11s22-in-f14.1e100.net"
+        ],
+        "ip": "142.250.206.174",
+        "ports": [
+          80
+        ],
+        "tags": [],
+        "vulns": []
+      },
+      "error": null
+    },
+    "subdomains": {
+      "domain": "google.com",
+      "bruteforce": [
+        "account.google.com",
+        "admin.google.com",
+        "analytics.google.com",
+        "api.google.com",
+        "asia.google.com",
+        "billing.google.com",
+        "blog.google.com",
+        "careers.google.com",
+        "catalog.google.com",
+        "chat.google.com",
+        "corp.google.com",
+        "dns.google.com",
+        "docs.google.com",
+        "download.google.com",
+        "email.google.com",
+        "files.google.com",
+        "health.google.com",
+        "help.google.com",
+        "images.google.com",
+        "jobs.google.com",
+        "m.google.com",
+        "mail.google.com",
+        "meet.google.com",
+        "mobile.google.com",
+        "ns1.google.com",
+        "ns2.google.com",
+        "ns3.google.com",
+        "ns4.google.com",
+        "partners.google.com",
+        "pay.google.com",
+        "products.google.com",
+        "profile.google.com",
+        "sandbox.google.com",
+        "search.google.com",
+        "services.google.com",
+        "shop.google.com",
+        "smtp.google.com",
+        "store.google.com",
+        "support.google.com",
+        "upload.google.com",
+        "video.google.com",
+        "vpn.google.com",
+        "web.google.com",
+        "www.google.com"
+      ],
+      "passive": [],
+      "all": [
+        "account.google.com",
+        "admin.google.com",
+        "analytics.google.com",
+        "api.google.com",
+        "asia.google.com",
+        "billing.google.com",
+        "blog.google.com",
+        "careers.google.com",
+        "catalog.google.com",
+        "chat.google.com",
+        "corp.google.com",
+        "dns.google.com",
+        "docs.google.com",
+        "download.google.com",
+        "email.google.com",
+        "files.google.com",
+        "health.google.com",
+        "help.google.com",
+        "images.google.com",
+        "jobs.google.com",
+        "m.google.com",
+        "mail.google.com",
+        "meet.google.com",
+        "mobile.google.com",
+        "ns1.google.com",
+        "ns2.google.com",
+        "ns3.google.com",
+        "ns4.google.com",
+        "partners.google.com",
+        "pay.google.com",
+        "products.google.com",
+        "profile.google.com",
+        "sandbox.google.com",
+        "search.google.com",
+        "services.google.com",
+        "shop.google.com",
+        "smtp.google.com",
+        "store.google.com",
+        "support.google.com",
+        "upload.google.com",
+        "video.google.com",
+        "vpn.google.com",
+        "web.google.com",
+        "www.google.com"
+      ]
+    },
+    "headers": {
+      "url": "https://google.com",
+      "status_code": 200,
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 21 Jun 2026 13:18:53 GMT",
+        "Expires": "-1",
+        "Cache-Control": "private, max-age=0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-gFbo56p7N1HG-39XBAFZ1A' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"gws\"",
+        "Report-To": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/other\"}]}",
+        "Accept-CH": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+        "Permissions-Policy": "unload=()",
+        "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+        "Content-Encoding": "gzip",
+        "Server": "gws",
+        "X-XSS-Protection": "0",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Set-Cookie": "__Secure-STRP=ANmZwa3l6lYxM08y9g7zVNRWYO6O0RfRF8DFJvLxk1jpMCPmAJ-RAuUZMiJEo9T8kdF80OP8VHIoejGMj-nm1avKLQtvxS-JcMT_; expires=Sun, 21-Jun-2026 13:23:53 GMT; path=/; domain=.google.com; Secure; SameSite=strict, AEC=AdJVEasPi3BvOwixBT7Km_mJoZc0Rz44-atnjbLEvdK1DLBa8m-F44qmBA; expires=Fri, 18-Dec-2026 13:18:53 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=532=tfiTKehZkgjG9RbvHiIUzlOVW64XZCd5Ve-q1C4teKpfYojm78VGQiBDIEV5hLDuPAhd1hpymXiXQSUNWcKRHR3OEehDPf0-0ZC3lONSKIkpPatKccvUj73ebqRLrf1N7x1H6B91Z_god0a-8IIvPA8xNUyu6Bs7XJeBD9kgs73EdEMJAo0JuvB8ELoxdLEy-YtSAnIhwCIemcynlMt2D8g; expires=Mon, 21-Dec-2026 13:18:53 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none, __Secure-BUCKET=CLwE; expires=Fri, 18-Dec-2026 13:18:53 GMT; path=/; domain=.google.com; Secure; HttpOnly",
+        "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "Transfer-Encoding": "chunked"
+      },
+      "issues": [
+        {
+          "header": "Content-Security-Policy",
+          "severity": "medium",
+          "description": "CSP missing \u2014 vulnerable to XSS and data injection"
+        },
+        {
+          "header": "X-Content-Type-Options",
+          "severity": "medium",
+          "description": "X-Content-Type-Options missing \u2014 MIME-sniffing risk"
+        },
+        {
+          "header": "Referrer-Policy",
+          "severity": "medium",
+          "description": "Referrer-Policy missing \u2014 information leakage risk"
+        },
+        {
+          "header": "Access-Control-Allow-Origin",
+          "severity": "medium",
+          "description": "CORS not configured"
+        }
+      ],
+      "score": 52,
+      "server": "gws",
+      "powered_by": null
+    },
+    "web_crawl": {
+      "domain": "google.com",
+      "paths_checked": 72,
+      "findings": [
+        {
+          "url": "https://google.com/",
+          "status": 200,
+          "size": 219958,
+          "title": "Google"
+        },
+        {
+          "url": "https://google.com/.well-known/security.txt",
+          "status": 200,
+          "size": 275,
+          "title": ""
+        },
+        {
+          "url": "https://google.com/crossdomain.xml",
+          "status": 200,
+          "size": 235,
+          "title": ""
+        },
+        {
+          "url": "https://google.com/robots.txt",
+          "status": 200,
+          "size": 6607,
+          "title": ""
+        },
+        {
+          "url": "https://google.com/sitemap.xml",
+          "status": 200,
+          "size": 1879,
+          "title": ""
+        }
+      ]
+    },
+    "tech_fingerprint": {
+      "url": "https://google.com",
+      "technologies": [
+        "Angular",
+        "Server: gws",
+        "Vue.js"
+      ],
+      "raw_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Sun, 21 Jun 2026 13:18:53 GMT",
+        "Expires": "-1",
+        "Cache-Control": "private, max-age=0",
+        "Strict-Transport-Security": "max-age=31536000",
+        "Content-Security-Policy-Report-Only": "object-src 'none';base-uri 'self';script-src 'nonce-mDPe4PVuZoeAyn4G5WsOyQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups; report-to=\"gws\"",
+        "Report-To": "{\"group\":\"gws\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/gws/other\"}]}",
+        "Accept-CH": "Sec-CH-Prefers-Color-Scheme, Downlink, RTT, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version, Sec-CH-UA-Arch, Sec-CH-UA-Model, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64",
+        "Permissions-Policy": "unload=()",
+        "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+        "Content-Encoding": "gzip",
+        "Server": "gws",
+        "X-XSS-Protection": "0",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Set-Cookie": "__Secure-STRP=ANmZwa19EzrP19LkxIL8NZX-hrmC_vRjSth8TPKL7zWxdoWI6wDdn616Y3icMIMkuX5sU3twDLyoj0Zc1XJ0V-r0Ra0bejktZwN6; expires=Sun, 21-Jun-2026 13:23:53 GMT; path=/; domain=.google.com; Secure; SameSite=strict, AEC=AdJVEatLdJLKPGSdeMsDcq7Eei8bgmvB1f6gSj8U5yq7FEabr8t3-zZR-A; expires=Fri, 18-Dec-2026 13:18:53 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=532=ewNYmD2jXQWRVVmPber7PxoPApuUIV-wKUrrg1YCkVZlHjYXvwg2zwtB6of5_JLaOY-mEWoC2qMF4FvGpmwWP60Iv30EAcZcpLmJcw5fInnnuPhFx7Zr4ztaNdNVJ_yhEm1Fntu4PUVyLQG1eNObiFhAHPyM9S0iSQMAWX1ug4zin5FQxZFawEcfOsxkl-3tiYX9F_7KBZQcU7SDfHdRrWk; expires=Mon, 21-Dec-2026 13:18:53 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none, __Secure-BUCKET=CIcC; expires=Fri, 18-Dec-2026 13:18:53 GMT; path=/; domain=.google.com; Secure; HttpOnly",
+        "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "Transfer-Encoding": "chunked"
+      }
+    },
+    "whois": {
+      "domain": "google.com",
+      "error": "timed out"
+    },
+    "dns": {
+      "A": [],
+      "AAAA": [
+        "2404:6800:4007:836::200e"
+      ],
+      "MX": [
+        "10 smtp.google.com."
+      ],
+      "NS": [
+        "ns4.google.com.",
+        "ns2.google.com.",
+        "ns3.google.com.",
+        "ns1.google.com."
+      ],
+      "TXT": [
+        "\"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=\"",
+        "\"onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0\"",
+        "\"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e\"",
+        "\"google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0\"",
+        "\"apple-domain-verification=30afIBcvSuDV2PLX\"",
+        "\"cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b\"",
+        "\"v=spf1 include:_spf.google.com ~all\"",
+        "\"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95\"",
+        "\"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB\"",
+        "\"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ\"",
+        "\"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o\"",
+        "\"onetrust-domain-verification=0d477fe608074e6f9c12bca7826035cc\"",
+        "\"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289\""
+      ],
+      "SOA": [
+        "ns1.google.com. dns-admin.google.com. 935242254 900 900 1800 60"
+      ],
+      "CNAME": []
+    },
+    "emails": {
+      "domain": "google.com",
+      "emails": [],
+      "sources": {
+        "http": [],
+        "https": [],
+        "google": [],
+        "bing": []
+      }
+    },
+    "ports": {
+      "host": "google.com",
+      "open_ports": [
+        443
+      ],
+      "total_scanned": 721
+    },
+    "cve": {
+      "technologies_checked": [],
+      "skipped": [
+        {
+          "technology": "Angular",
+          "reason": "no supported version-specific CPE"
+        },
+        {
+          "technology": "Server: gws",
+          "reason": "no supported version-specific CPE"
+        },
+        {
+          "technology": "Vue.js",
+          "reason": "no supported version-specific CPE"
+        }
+      ],
+      "findings": []
+    }
+  }
+}

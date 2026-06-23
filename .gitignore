@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# ReconSuite Output
+reports/
+screenshots/
+scans/
+
+# OS / Editor specific
+.DS_Store
+*.log
+.vscode/
+.idea/

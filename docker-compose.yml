@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  reconsuite:
+    build: .
+    container_name: reconsuite-v2
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+      - ./scans:/app/scans
+      - ./static:/app/static:ro
+    environment:
+      - FLASK_SECRET=${FLASK_SECRET:-reconsuite-v2-change-me-in-production}
+      - FLASK_DEBUG=0
+      - PORT=5000
+      - SHODAN_API_KEY=${SHODAN_API_KEY:-}
+    restart: unless-stopped
+    # Enable for Tor support (requires tor service)
+    # network_mode: "service:tor"
+    # depends_on:
+    #   - tor
+
+  # Uncomment for Tor support
+  # tor:
+  #   image: dperson/torproxy:latest
+  #   container_name: reconsuite-tor
+  #   restart: unless-stopped

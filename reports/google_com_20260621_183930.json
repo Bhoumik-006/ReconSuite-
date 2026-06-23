@@ -1,0 +1,101 @@
+{
+  "target": "google.com",
+  "date": "2026-06-21 18:36:38",
+  "scan_duration": 171.87,
+  "modules": {
+    "headers": {
+      "url": "https://google.com",
+      "status_code": null,
+      "headers": {},
+      "issues": [],
+      "score": 100,
+      "error": "HTTPSConnectionPool(host='google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='google.com', port=443): Failed to resolve 'google.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "ssl": {
+      "host": "google.com",
+      "port": 443,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "shodan": {
+      "target": "google.com",
+      "source": "",
+      "data": {},
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "tech_fingerprint": {
+      "url": "https://google.com",
+      "technologies": [],
+      "raw_headers": {},
+      "error": "HTTPSConnectionPool(host='google.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='google.com', port=443): Failed to resolve 'google.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    "whois": {
+      "domain": "google.com",
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "subdomains": {
+      "domain": "google.com",
+      "bruteforce": [
+        "www.google.com"
+      ],
+      "passive": [],
+      "all": [
+        "www.google.com"
+      ]
+    },
+    "web_crawl": {
+      "domain": "google.com",
+      "paths_checked": 72,
+      "findings": []
+    },
+    "dns": {
+      "A": [],
+      "AAAA": [],
+      "MX": [
+        "10 smtp.google.com."
+      ],
+      "NS": [
+        "ns3.google.com.",
+        "ns2.google.com.",
+        "ns4.google.com.",
+        "ns1.google.com."
+      ],
+      "TXT": [
+        "\"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ\"",
+        "\"onetrust-domain-verification=0d477fe608074e6f9c12bca7826035cc\"",
+        "\"v=spf1 include:_spf.google.com ~all\"",
+        "\"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=\"",
+        "\"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e\"",
+        "\"google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0\"",
+        "\"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289\"",
+        "\"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95\"",
+        "\"onetrust-domain-verification=6d685f1d41a94696ad7ef771f68993e0\"",
+        "\"cisco-ci-domain-verification=47c38bc8c4b74b7233e9053220c1bbe76bcc1cd33c7acf7acd36cd6a5332004b\"",
+        "\"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o\"",
+        "\"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB\"",
+        "\"apple-domain-verification=30afIBcvSuDV2PLX\""
+      ],
+      "SOA": [
+        "ns1.google.com. dns-admin.google.com. 935242254 900 900 1800 60"
+      ],
+      "CNAME": []
+    },
+    "emails": {
+      "domain": "google.com",
+      "emails": [],
+      "sources": {
+        "http": [],
+        "https": [],
+        "google": [],
+        "bing": []
+      }
+    },
+    "ports": {
+      "host": "google.com",
+      "open_ports": [
+        80,
+        443
+      ],
+      "total_scanned": 721
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# ReconSuite v2.0 - Requirements
+Flask==3.0.0
+Flask-CORS==4.0.0
+python-whois==0.9.4
+dnspython==2.6.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+cryptography==41.0.7
+Pillow==9.5.0
+reportlab==4.0.8
+apscheduler==3.10.4
+playwright==1.40.0
+shodan==1.29.0
+pyopenssl==23.3.0
+colorama==0.4.6
+urllib3==2.1.0
+chardet==5.2.0
